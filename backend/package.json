@@ -1,5 +1,17 @@
 {
+  "type": "module",
+  "scripts": {
+    "start": "node src/controllers/server.js",
+    "dev": "nodemon src/controllers/server.js"
+  },
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.1",
+    "nodemon": "^3.1.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
